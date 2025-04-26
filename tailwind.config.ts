@@ -64,7 +64,7 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				dtr: {
-					primary: '#1a4f8b',
+					primary: '#005E60',
 					secondary: '#3b82f6',
 					accent: '#f59e0b',
 					light: '#f3f4f6',

@@ -8,19 +8,6 @@ import {
   AccordionTrigger 
 } from '@/components/ui/accordion';
 import { DonneePrepaRow } from '@/types';
-import CoreColumns from './Sections/CoreColumns';
-import TransportGroup from './Sections/TransportGroup';
-import LotIdentificationGroup from './Sections/LotIdentificationGroup';
-import DesiGroup from './Sections/DesiGroup';
-import QuantitesGroup from './Sections/QuantitesGroup';
-import DimMagGroup from './Sections/DimMagGroup';
-import PrixGroup from './Sections/PrixGroup';
-import DateGroup from './Sections/DateGroup';
-import CaisseGroup from './Sections/CaisseGroup';
-import ArticleDetailsGroup from './Sections/ArticleDetailsGroup';
-import UnitesPoidsGroup from './Sections/UnitesPoidsGroup';
-import AutreGroup from './Sections/AutreGroup';
-import MetaColumns from './Sections/MetaColumns';
 
 const DonneesPrepaTable = () => {
   const { affaireCode, donneesPrepa, loading, error } = useAffaireContext();
